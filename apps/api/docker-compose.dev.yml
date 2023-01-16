@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  mysql:
+    #platform: linux/x86_64 ##enable this line for MAC
+    image: mysql:8.0.23
+    restart: always
+    environment:
+      MYSQL_DATABASE: root
+      MYSQL_ROOT_PASSWORD: typeorm
+    ports:
+      - '3306:3306'
+    volumes:
+      - mysql:/var/lib/mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --sql_mode="ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
+  elasticsearch:
+    image: elasticsearch:8.3.2
+    restart: always
+    environment:
+      ELASTIC_PASSWORD: elasticpassword
+      discovery.type: single-node
+      http.publish_host: localhost
+      xpack.security.transport.ssl.enabled: 'false'
+    ports:
+      - '9200:9200'
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+
+volumes:
+  mysql: ~
+  elasticsearch: ~
