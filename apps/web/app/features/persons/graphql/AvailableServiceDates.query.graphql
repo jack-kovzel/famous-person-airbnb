@@ -1,0 +1,21 @@
+query All($filterBy: GetPersonFilterByArgs, $pagination: PaginationModel) {
+  all(filterBy: $filterBy, pagination: $pagination) {
+    items {
+      id
+      name
+      birthDate
+      birthPlace {
+        place
+        presentDayPlace
+        location {
+          lat
+          lon
+        }
+      }
+      deathDate
+      shortDescription
+      imageUrl
+    }
+    totalCount
+  }
+}

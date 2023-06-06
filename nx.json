@@ -3,9 +3,10 @@
   "npmScope": "famous-person-airbnb",
   "tasksRunnerOptions": {
     "default": {
-      "runner": "nx/tasks-runners/default",
+      "runner": "nx-cloud",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": ["build", "lint", "test", "e2e"],
+        "accessToken": "MzA5MDVlNDktYTQ5MC00NDUwLTg4N2EtYzNkNTMxODg3OGY1fHJlYWQtd3JpdGU="
       }
     }
   },
@@ -36,7 +37,7 @@
     "sharedGlobals": ["{workspaceRoot}/babel.config.json"]
   },
   "generators": {
-    "@nrwl/react": {
+    "@nx/react": {
       "application": {
         "style": "css",
         "linter": "eslint",
@@ -50,6 +51,12 @@
         "style": "css",
         "linter": "eslint",
         "unitTestRunner": "jest"
+      }
+    },
+    "@nx/next": {
+      "application": {
+        "style": "css",
+        "linter": "eslint"
       }
     }
   }

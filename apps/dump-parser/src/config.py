@@ -38,6 +38,12 @@ def create_config_from_args(args) -> ChainMap:
             'host': get_env_var('ELASTICSEARCH_HOST'),
             'user_name': get_env_var('ELASTICSEARCH_USERNAME'),
             'password': get_env_var('ELASTICSEARCH_PASSWORD'),
+            'index_settings': {
+                "index": {
+                  "sort.field": "name.raw",
+                  "sort.order": "asc"
+                },
+            },
             'index_mapping': {
                 "properties": {
                     "birth_date": {
@@ -74,11 +80,17 @@ def create_config_from_args(args) -> ChainMap:
                     "name": {
                         "type": "text",
                         "fields": {
-                            "keyword": {
+                            "raw": {
                                 "type": "keyword",
-                                "ignore_above": 256
+                                "doc_values": True,
                             }
-                        }
+                        },
+                    },
+                    "image_url": {
+                        "type": "text",
+                    },
+                    "short_description": {
+                        "type": "text",
                     },
                     "page_text": {
                         "type": "text",

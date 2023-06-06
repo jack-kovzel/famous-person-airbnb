@@ -1,0 +1,4 @@
+{
+  "BaseApiUrl": "http://localhost:3333/graphql",
+  "BaseWSApiUrl": "wss://localhost:3333/graphql"
+}

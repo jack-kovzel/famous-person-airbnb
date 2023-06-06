@@ -1,5 +1,3 @@
-import { FamousPersonResolver } from "./famousPersonResolver";
+import { PersonsResolver } from '@app/resolvers/PersonsResolver';
 
-export default [
-  FamousPersonResolver,
-]
+export default [PersonsResolver];

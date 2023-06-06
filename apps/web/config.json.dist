@@ -1,0 +1,4 @@
+{
+  "BaseApiUrl": "${BASE_API_URL}",
+  "BaseWSApiUrl": "${BASE_WS_API_URL}"
+}

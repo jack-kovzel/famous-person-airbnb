@@ -5,13 +5,34 @@ import re
 world_cities_rows = []
 
 # Open the CSV file
-with open('dump/worldcities.csv', 'r') as file:
+with open('assets/worldcities.csv', 'r') as file:
     reader = csv.reader(file)
     # Iterate over the rows in the CSV file
     for row in reader:
         # Append each row to the list
         world_cities_rows.append(row)
 
+def extract_image(text):
+    pattern = r"\|\s*image\s*=\s*(.+?)\n"
+
+    match = re.search(pattern, text)
+
+    if match:
+        result = match.group(1)
+        result = result.replace(" ", "_")
+        return result
+    else:
+        return None
+
+def extract_short_description(text):
+    pattern = r"\{\{short description\|(.+?)\}\}"
+    match = re.search(pattern, text)
+
+    if match:
+        result = match.group(1)
+        return result
+    else:
+        return None
 
 def extract_birth_date(text):
     # TODO: Parse the following format as well: | date   = 28 February 1690
@@ -41,7 +62,8 @@ def extract_birth_place(text):
 
         if present_day_match:
             present_day_place = format_place(
-                present_day_match.group(1))
+                present_day_match.group(1)
+            )
 
         place = format_place(place_match.group(1))
 
