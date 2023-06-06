@@ -84,8 +84,9 @@ const Label: React.FC<{
 };
 
 const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
-  const onMarkerLocationUpdated = (location: [number, number]) =>
-    console.log(location);
+  const onMarkerLocationUpdated = (location: [number, number]) => {
+    return;
+  };
 
   const {
     register,
@@ -102,7 +103,7 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
   });
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
-    console.log(data);
+    return;
   };
 
   const body = (

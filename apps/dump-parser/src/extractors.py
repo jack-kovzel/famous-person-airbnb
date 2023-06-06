@@ -5,6 +5,7 @@ import re
 world_cities_rows = []
 
 # Open the CSV file
+# TODO: Open file remotely instead of local access
 with open('assets/worldcities.csv', 'r') as file:
     reader = csv.reader(file)
     # Iterate over the rows in the CSV file

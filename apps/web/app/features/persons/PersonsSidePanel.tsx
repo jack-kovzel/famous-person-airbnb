@@ -37,7 +37,9 @@ export const PersonsSidePanel: React.FC<{
   const closeAddPersonModal = () => setPersonModalIsOpen(false);
   const openAddPersonModal = () => setPersonModalIsOpen(true);
 
-  const onSubmitAddPersonModal = () => {};
+  const onSubmitAddPersonModal = () => {
+    return;
+  };
 
   useEffect(
     () =>
