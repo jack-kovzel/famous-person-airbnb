@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  elasticsearch:
+    image: elasticsearch:8.3.2
+    restart: always
+    environment:
+      ELASTIC_PASSWORD: elasticpassword
+      discovery.type: single-node
+      http.publish_host: localhost
+      xpack.security.transport.ssl.enabled: 'false'
+    ports:
+      - '9200:9200'
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+
+volumes:
+  mysql: ~
+  elasticsearch: ~

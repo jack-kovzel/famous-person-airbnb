@@ -1,0 +1,330 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.40.0-wmf.14</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="case-sensitive">Gadget</namespace>
+      <namespace key="2301" case="case-sensitive">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+  <title>Friedrich Bessel</title>
+  <ns>0</ns>
+  <id>11574</id>
+  <revision>
+    <id>1005770604</id>
+    <parentid>1005770525</parentid>
+    <timestamp>2021-02-09T09:58:56Z</timestamp>
+    <contributor>
+      <username>Marco Chemello (BEIC)</username>
+      <id>27229173</id>
+    </contributor>
+    <comment>/* Publications */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text bytes="24360" xml:space="preserve">{{short description|German astronomer and mathematician}}
+{{Infobox scientist
+| name = Friedrich Wilhelm Bessel
+| image = Friedrich Wilhelm Bessel (1839 painting).jpg
+| image_size = 225px
+| caption = [[Christian Albrecht Jensen|C. A. Jensen]], ''Friedrich Wilhelm Bessel'', 1839 ([[Ny Carlsberg Glyptotek]])
+| birth_date = {{birth date|1784|7|22|df=y}}
+| birth_place = [[Minden]], [[Minden-Ravensberg]] (present-day [[Germany]])
+| death_date = {{death date and age|df=yes|1846|3|17|1784|7|22}}
+| death_place = [[Königsberg]], [[Province of Prussia|Prussia]] (present-day [[Kaliningrad]], [[Russia]])
+| residence = [[Kingdom of Prussia|Prussia]]
+| nationality = [[Kingdom of Prussia|Prussian]] ([[Germany|German]])
+| field = [[Astronomy]], [[mathematics]], [[geodesy]]
+| work_institutions = [[University of Königsberg]]
+| alma_mater = &lt;!--Bessel never had a university education--&gt;
+| academic_advisors = &lt;!--Bessel was awarded a honorary doctorate (no formal mentors)--&gt;
+| doctoral_students = [[Friedrich Wilhelm Argelander]]
+| known_for  = [[Bessel function]]s&lt;br /&gt;[[Stellar parallax]]&lt;br /&gt;[[Bessel ellipsoid]]&lt;br /&gt;([[List of things named after Friedrich Bessel|full list here]])
+| prizes = [[PhD (Hon)]]:&lt;br /&gt;[[University of Göttingen]] (1811)&lt;br /&gt;[[Lalande Prize]] (1811), (1816)&lt;br /&gt;[[Gold Medal of the Royal Astronomical Society]] (1829 and 1841)
+| footnotes =
+}}
+
+'''Friedrich Wilhelm Bessel''' ({{IPA-de|ˈbɛsl̩|lang}}; 22 July 1784 – 17 March 1846) was a [[Germany|German]] [[astronomer]], [[mathematician]], [[physicist]] and [[geodesy|geodesist]]. He was the first astronomer who determined reliable values for the distance from the sun to another star by the method of [[parallax]]. A special type of mathematical functions were named [[Bessel function]]s after Bessel's death, though they had originally been discovered by [[Daniel Bernoulli]] and then generalised by Bessel.
+
+== Life and family ==
+
+Bessel was born in [[Minden]], [[Westphalia]], then capital of the Prussian administrative region [[Minden-Ravensberg]], as second son of a civil servant. He was born into a large family in Germany. At the age of 14 Bessel was apprenticed to the import-export concern Kulenkamp at [[Bremen]]. The business's reliance on cargo ships led him to turn his [[mathematics|mathematical]] skills to problems in [[navigation]]. This in turn led to an interest in [[astronomy]] as a way of determining [[longitude]].
+
+Bessel came to the attention of a major figure of German astronomy at the time, [[Heinrich Wilhelm Olbers]], by producing a refinement on the orbital calculations for [[Halley's Comet]] in 1804, using old observation data taken from [[Thomas Harriot]] and [[Nathaniel Torporley]] in 1607.{{sfn|Chisholm|1911}}
+
+Two years later Bessel left Kulenkamp and became [[Johann Hieronymus Schröter]]'s assistant at [[Lilienthal, Lower Saxony|Lilienthal]] Observatory near [[Bremen]]. There he worked on [[James Bradley]]'s stellar observations to produce precise positions for some 3,222 stars.{{sfn|Chisholm|1911}}
+
+Despite lacking any higher education, especially at university, Bessel was appointed director of the newly founded [[Königsberg Observatory]] by King [[Frederick William III of Prussia]] in January 1810, at the age of 25. On the recommendation of fellow mathematician and physicist [[Carl Friedrich Gauss]] (with whom he regularly corresponded)&lt;ref&gt;Clifford J. Cunningham, ''Bode's Law and the Discovery of Juno: Historical Studies in Asteroid Research'', Springer, 2017, pp. 121ff..&lt;/ref&gt; he was awarded an honorary doctor degree from the [[University of Göttingen]] in March 1811.
+
+Around that time, the two men engaged in an epistolary correspondence.&lt;ref&gt;Helmut Koch, ''Introduction to Classical Mathematics I: From the Quadratic Reciprocity Law to the Uniformization Theorem'', Springer, p. 90.&lt;/ref&gt; However, when they met in person in 1825, they quarrelled; the details are not known.&lt;ref&gt;Oscar Sheynin, [http://sheynin.de/download/hist_stat.pdf ''History of Statistics''], Berlin: NG Verlag Berlin, 2012, p. 88.&lt;/ref&gt;
+
+In 1842 Bessel took part in the annual meeting of the [[British Association for the Advancement of Science]] in Manchester, accompanied by the geophysicist [[Georg Adolf Erman]] and the mathematician [[Carl Gustav Jacob Jacobi]].
+
+Bessel married Johanna, the daughter of the chemist and pharmacist [[Karl Gottfried Hagen]] who was the uncle of the physician and biologist [[Hermann August Hagen]] and the hydraulic engineer [[Gotthilf Hagen]], the latter also Bessel's student and assistant from 1816 to 1818. The physicist [[Franz Ernst Neumann]], Bessel's close companion and colleague, was married to Johanna Hagen's sister Florentine. Neumann introduced Bessel's exacting methods of measurement and data reduction into his mathematico-physical seminar, which he co-directed with [[Carl Gustav Jacob Jacobi]] at Königsberg.&lt;ref&gt;{{Cite book | first1=Kathryn M. | last1=Olesko|author1-link= Kathryn Olesko | title=Physics as a Calling: Discipline and Practice in the Königsberg Seminar for Physics | url=https://archive.org/details/physicsascalling00oles | url-access=registration | publisher=Cornell University Press | year=1991 }}&lt;/ref&gt; These exacting methods had a lasting impact upon the work of Neumann's students and upon the Prussian conception of precision in measurement.
+
+Bessel had two sons and three daughters. His eldest daughter, Marie, married Georg Adolf Erman, member of the scholar family [[Erman]]. One of their sons was the renowned [[Egyptologist]] [[Adolf Erman]].
+
+After several months of illness Bessel died in March 1846 at his observatory from [[retroperitoneal fibrosis]].&lt;ref&gt;{{Cite journal | ref = {{harvid|Bessel|1846}}| doi = 10.1002/asna.18460240402 | title = Bessel's Tod | language = de| trans-title = Bessel's death| journal = Astronomische Nachrichten | volume = 24 | issue = 556| pages = 49–52 | year = 1846 | url = https://books.google.com/books?id=-qAEAAAAQAAJ&amp;pg=PA50| bibcode = 1846AN.....24...49B| last1 = Bessel | first1 = Friedrich Wilhelm }}&lt;/ref&gt;
+
+== Work ==
+[[File:Koenigsberg observatory.jpg|right|thumb|[[Königsberg Observatory]] in  1830. It was destroyed by bombing in the Second World War.]]
+
+While the observatory was still in construction Bessel elaborated the ''Fundamenta Astronomiae'' based on Bradley's observations. As a preliminary result he produced tables of [[atmospheric refraction]] that won him the [[Lalande Prize]] from the [[French Academy of Sciences]] in 1811. The Königsberg Observatory began operation in 1813.
+
+Starting in 1819, Bessel determined the position of over 50,000 stars using a [[meridian circle]] from [[Georg von Reichenbach|Reichenbach]], assisted by some of his qualified students. The most prominent of them was [[Friedrich Wilhelm Argelander]].
+
+With this work done, Bessel was able to achieve the feat for which he is best remembered today: he is credited with being the first to use the [[stellar parallax]] in [[Cosmic distance ladder|calculating the distance to a star]]. Astronomers had believed for some time that parallax would provide the first accurate measurement of interstellar distances. In 1838 Bessel announced that [[61 Cygni]] had a parallax of 0.314 [[arcsecond]]s; which, given the diameter of the [[Earth]]'s orbit, indicated that the star is 10.3 [[Light-year|ly]] away.&lt;ref&gt;{{Cite journal | last = Bessel | first = F. W. | author-link = Friedrich Bessel| doi = 10.1002/asna.18390160502 | title = Bestimmung der Entfernung des 61sten Sterns des Schwans | language = de| trans-title = Determination of the distance to 61 Cygni| journal = Astronomische Nachrichten | volume = 16 | issue = 365–366 | pages = 65–96 | year = 1838 | bibcode = 1838AN.....16...65B| url = https://zenodo.org/record/1424605 }}&lt;/ref&gt;&lt;ref&gt;{{Cite journal| doi = 10.1093/mnras/4.17.152| last = Bessel | first = F. W. | author-link = Friedrich Bessel| title = On the parallax of 61 Cygni| journal = Monthly Notices of the Royal Astronomical Society| volume = 4| issue = 17| pages = 152–161| year = 1838b| bibcode = 1838MNRAS...4..152B| doi-access = free}}&lt;/ref&gt;&lt;ref&gt;{{cite magazine|title=A brief history of light dates|url=http://newswatch.nationalgeographic.com/2010/11/22/a_brief_history_of_light_years/|archive-url=https://web.archive.org/web/20110415042634/http://newswatch.nationalgeographic.com/2010/11/22/a_brief_history_of_light_years/|url-status=dead|archive-date=15 April 2011|magazine=National Geographic|access-date=26 June 2020}}&lt;/ref&gt;  Given the current measurement of 11.4 ly, Bessel's figure had an error of 9.6%. Nearly at the same time [[Friedrich Georg Wilhelm Struve]] and [[Thomas James Henderson|Thomas Henderson]] measured the parallaxes of [[Vega]] and [[Alpha Centauri]].
+
+As well as helping determine the parallax of 61 Cygni, Bessel's precise measurements using a new meridian circle from Adolf Repsold allowed him to notice deviations in the motions of [[Sirius]] and [[Procyon]], which he deduced must be caused by the gravitational attraction of unseen companions.&lt;ref&gt;
+{{Cite journal | last = Bessel | first = F. W. | author-link = Friedrich Bessel| title = Ueber Veränderlichkeit der eigenen Bewegungen der Fixsterne | language = de| trans-title = On Variations of the proper motions of the fixed stars| doi = 10.1002/asna.18450221002 | journal = Astronomische Nachrichten | volume = 22 | issue = 514| pages = 145–160 | year = 1844a| bibcode = 1844AN.....22..145B| url = https://zenodo.org/record/1424611 }}
+&lt;/ref&gt;&lt;ref&gt;
+{{Cite journal | last = Bessel | first = F. W. | author-link = Friedrich Bessel| title = Ueber Veränderlichkeit der eigenen Bewegungen der Fixsterne (Fortsetzung)| language = de| trans-title = On Variations of the proper motions of the fixed stars (continued)| doi = 10.1002/asna.18450221202 | journal = Astronomische Nachrichten | volume = 22 | issue = 515| pages = 169–184 | year = 1844b| bibcode = 1844AN.....22..169B| url = https://zenodo.org/record/1424611 }}
+&lt;/ref&gt;&lt;ref&gt;
+{{Cite journal| doi = 10.1093/mnras/6.11.136a| last = Bessel | first = F. W. | author-link = Friedrich Bessel| title = On the variations of the proper motions of Procyon and Sirius| journal = Monthly Notices of the Royal Astronomical Society| volume = 6| issue = 11| pages = 136–141| year = 1844c| bibcode = 1844MNRAS...6R.136B| doi-access = free}}
+&lt;/ref&gt;
+His announcement of Sirius's &quot;dark companion&quot; in 1844 was the first correct claim of a previously unobserved companion by positional measurement, and eventually led to the discovery of [[Sirius B]].
+
+Bessel was the first scientist who realized the effect later called ''[[personal equation]]'', that several simultaneously observing persons determine slightly different values, especially recording the transition time of stars.&lt;ref&gt;
+{{Cite journal| doi = 10.1017/s0007087407009478| last = Hoffmann | first = Christoph | title = Constant differences: Friedrich Wilhelm Bessel, the concept of the observer in early nineteenth-century practical astronomy and the history of the personal equation| journal = British Journal for the History of Science| volume = 40| issue = 3| pages = 333–365| year = 2007}}
+&lt;/ref&gt;
+
+In 1824, Bessel developed a new method for calculating the circumstances of eclipses using the so-called [[Besselian elements]].  His method simplified the calculation to such an extent, without sacrificing accuracy, that it is still in use today.{{Citation needed|date=March 2020}}
+
+Bessel's work in 1840 contributed to the [[discovery of Neptune]] in 1846 at [[Berlin Observatory]], several months after Bessel's death. On Bessel's proposal (1825) the [[Prussian Academy of Sciences]] started the edition of the ''Berliner Akademische Sternkarten'' (''Berlin Academic Star Charts'') as an international project. One unpublished new chart enabled [[Johann Gottfried Galle]] to find Neptune near the position calculated by LeVerrier in 1846.
+
+In the second decade of the 19th century while studying the dynamics of 'many-body' gravitational systems, Bessel developed what are now known as [[Bessel function]]s. Critical for the solution of certain [[differential equations]], these functions are used throughout both classical and [[quantum physics]].
+
+Bessel is responsible for the correction to the formula for the [[sample variance]] estimator named in his honour. This is the use of the factor ''n''&amp;nbsp;−&amp;nbsp;1 in the denominator of the formula, rather than just ''n''. This occurs when the ''sample mean'' rather than the ''population mean'' is used to centre the data and since the sample mean is a linear combination of the data the residual to the sample mean overcounts the number of degrees of freedom by the number of constraint equations — in this case one. ''(Also see [[Bessel's correction]])''.
+
+An additional field of work was [[geodesy]].&lt;ref&gt;{{cite conference
+|first = T. |last = Viik
+|title = F.W. Bessel and Geodesy
+|date = 2006
+|conference = Struve Geodetic Arc 2006 International Conference: The Struve Arc and Extensions in Space and Time. August 13–15, 2006
+|location = Haparanda and Pajala, Sweden
+|publisher = Lantmäteriet, Gävle, Sweden, 2006
+|pages = 53–63
+|url = http://www.aai.ee/~viik/PAPERS/BESSEL_GEODESY.pdf
+}}&lt;/ref&gt;
+Bessel published a method for solving the main
+[[Geodesics on an ellipsoid|geodesic problem]].&lt;ref&gt;{{cite journal
+|ref = {{harvid|Bessel|1825}}
+|last1 = Bessel |first1 = F. W.
+|author1-link = Friedrich Bessel
+|date = 2010
+|doi = 10.1002/asna.201011352
+|title = The calculation of longitude and latitude from geodesic measurements
+|journal = Astronomische Nachrichten
+|volume = 331 |issue = 8 |pages = 852–861
+|arxiv = 0908.1824
+|orig-year = 1825
+|others = . Translated by C. F. F. Karney &amp; R. E. Deakin
+|postscript = . English translation of [http://adsabs.harvard.edu/abs/1825AN......4..241B ''Astron. Nachr.'' '''4''', 241–254 (1825)]. [http://geographiclib.sourceforge.net/bessel-errata.html Errata].
+|bibcode = 2010AN....331..852K
+|s2cid = 118760590 }}&lt;/ref&gt;
+He was responsible for the survey of East Prussia which joined the Prussian and Russian triangulation networks&lt;ref&gt;{{cite book
+|first1 = F. W. |last1 = Bessel| author-link1 = Friedrich Bessel
+|first2 = J. J. |last2 = Baeyer
+|title = Gradmessung in Ostpreussen und ihre Verbindung mit Preussischen und Russischen Dreiecksketten
+|language = de
+|trans-title=The East Prussian Survey and its connection with the Prussian and Russian networks
+|publisher = Dümmler
+|location = Berlin
+|date = 1838
+|url = https://archive.org/details/bub_gb_f5AAAAAAMAAJ
+}}&lt;/ref&gt;
+and he obtained an estimate of increased accuracy for the [[figure of the Earth]], nowadays called the [[Bessel ellipsoid]].&lt;ref&gt;{{Cite journal | last = Bessel | first = F. W. | author-link = Friedrich Bessel| doi = 10.1002/asna.18370142301 | title = Bestimmung der Axen des elliptischen Rotationssphäroids, welches den vorhandenen Messungen von Meridianbögen der Erde am meisten entspricht | language = de| trans-title = Determination of the axes of ellipsoid that fits best to the existing measurements of meridian arcs| journal = Astronomische Nachrichten | volume = 14 | issue = 333 | pages = 333–346| year = 1837 | bibcode = 1837AN.....14..333B | url = https://zenodo.org/record/1424603 }}&lt;/ref&gt;&lt;ref&gt;{{Cite journal | last = Bessel | first = F. W. | author-link = Friedrich Bessel| doi = 10.1002/asna.18420190702 | title = Ueber einen Fehler in der Berechnung der französischen Gradmessung und seinen Einfluß auf die Bestimmung der Figur der Erde | language = de| trans-title = Concerning an error in the calculation of the French survey and its influence on the determination of the figure of the Earth| journal = Astronomische Nachrichten | volume = 19 | issue = 438| pages = 97–116| year = 1841 | bibcode = 1841AN.....19...97B| url = https://zenodo.org/record/1424607 }}&lt;/ref&gt;
+
+Bessel was elected a member of the [[Prussian Academy of Sciences]] in 1812 and of the [[French Academy of Sciences]] in 1816, a foreign member of the [[Royal Swedish Academy of Sciences]] in 1823, and a fellow of the [[Royal Society]] in 1825. In 1832, he was elected a Foreign Honorary Member of the [[American Academy of Arts and Sciences]].&lt;ref name=AAAS&gt;{{cite web|title=Book of Members, 1780–2010: Chapter B|url=http://www.amacad.org/publications/BookofMembers/ChapterB.pdf|publisher=American Academy of Arts and Sciences|access-date=24 June 2011}}&lt;/ref&gt; In 1827 Bessel became member of the Royal Institute of the Netherlands, predecessor of the [[Royal Netherlands Academy of Arts and Sciences]].&lt;ref&gt;{{cite web|url=http://www.dwc.knaw.nl/biografie/pmknaw/?pagetype=authorDetail&amp;aId=PE00002153 |title=Friedrich Wilhelm Bessel (1784 - 1846) |publisher=Royal Netherlands Academy of Arts and Sciences |access-date=22 May 2016}}&lt;/ref&gt;
+
+Bessel won the [[Gold Medal of the Royal Astronomical Society]] twice, in 1829 and 1841.
+
+The largest [[Bessel (crater)|crater]] in the Moon's [[Mare Serenitatis]] and the [[main-belt]] asteroid [[1552&amp;nbsp;Bessel]], as well as two fjords in Greenland, [[Bessel Fjord|Bessel Fjord, NE Greenland]] and [[Bessel Fjord, NW Greenland]], were named in his honour.&lt;ref name=&quot;1552-Bessel&quot; /&gt;
+
+== Publications ==
+[[File:Bessel, Friedrich Wilhelm – Tabulae Regiomontanae reductionum observationum astronomicarum ab anno 1750 usque ad annum 1850 computatae, 1830 – BEIC 753362.jpg|thumb|''Tabulae Regiomontanae reductionum observationum astronomicarum ab anno 1750 usque ad annum 1850 computatae'', 1830]]
+
+;Latin
+{{refbegin}}
+* {{Citation
+| year       =1818
+| title      =Fundamenta Astronomiae pro anno MDCCLV deducta ex observationibus viri incomparabilis James Bradley in specula astronomica Grenovicensi, per annos 1750–1762 institutis
+| location =Königsberg
+}}
+* {{Cite book|title=Tabulae Regiomontanae reductionum observationum astronomicarum ab anno 1750 usque ad annum 1850 computatae|volume=|publisher=Brüder Borntraeger|location=Sankt-Peterburg|year=1830|url=https://gutenberg.beic.it/webclient/DeliveryManager?pid=753362}}
+
+;German
+{{refbegin}}
+* {{Citation
+| year       =1810
+| title      =Untersuchungen über die scheinbare und wahre Bahn des im Jahre 1807 erschienenen grossen Kometen.
+| trans-title =  Investigations on the apparent and the real orbit of the great comet of 1807
+| location =Königsberg
+}}
+* {{Citation
+| year       =1815
+| title      =Untersuchung der Größe und des Einflusses des Vorrückens der Nachtgleichen.
+| trans-title = Investigations on precession
+| location =Berlin
+}}
+* {{Citation
+| year       =1828
+| title      =Untersuchungen über die Länge des einfachen Secundenpendels.
+| trans-title = Investigations on the length of the seconds pendulum
+| location =Berlin
+}}
+* {{Citation
+| year       =1832
+| title      =Versuche über die Kraft mit welcher die Erde Körper von verschiedener Beschaffenheit anzieht.
+| trans-title = Experiments on the force with which the earth attracts things of different matter
+| location =Berlin
+}}
+* {{Citation
+| year       =1838
+| title      =Gradmessung in Ostpreußen und ihre Verbindung mit Preußischen und Russischen Dreiecksketten.
+| trans-title = The East Prussian Survey and its connection with the Prussian and Russian networks
+| location =Berlin
+}}
+* {{Citation
+| year       =1839
+| title      =Darstellung der Untersuchungen und Maaßregeln, welche, in 1835 bis 1838, durch die Einheit des Preußischen Längenmaaßes veranlaßt worden sind.
+| trans-title = Description of the investigations and rules arranged in 1835 to 1838 for the standardization of the prussian unit of length
+| location =Berlin
+}}
+* {{Citation
+| year       =1815–1844
+| title      =Astronomische Beobachtungen auf der Königlichen Universitäts-Sternwarte zu Königsberg.
+| trans-title = Astronomical Observations (XXI Volumes)
+| location =Königsberg
+}}
+* {{Citation
+| year       =1841–1842
+| title      =Astronomische Untersuchungen.
+| trans-title = Astronomical Investigations. (2 Volumes)
+| location =Königsberg
+}}
+* {{Citation
+| year       =1848
+| title      =Populäre Vorlesungen über wissenschaftliche Gegenstände von F.W.Bessel.
+| trans-title = Popular lectures on scientific subjects
+| location =Hamburg
+| editor      =Heinrich Christian Schumacher
+| editor-link =Heinrich Christian Schumacher
+}}
+* {{Citation
+| title      =Abhandlungen von Friedrich Wilhelm Bessel.
+| trans-title = Treatises of Friedrich Wilhelm Bessel
+| editor      =Rudolf Engelmann
+}}
+** Vol. 1: ''I. Bewegungen der Körper im Sonnensystem. II. Sphärische Astronomie''. Leipzig 1875
+** Vol. 2: ''III. Theorie der Instrumente. IV. Stellarastronomie. V. Mathematik''. Leipzig 1876
+** Vol. 3: ''VI. Geodäsie. VII. Physik. VIII. Verschiedenes – Literatur''. Leipzig 1876.
+* {{Citation
+| year       =1878
+| title      =Recensionen von Friedrich Wilhelm Bessel
+| location =Leipzig
+| editor      =Rudolf Engelmann
+}}
+{{refend}}
+
+== See also ==
+
+* [[Carlos Ibáñez e Ibáñez de Ibero]] – 1st president of the [[General Conference on Weights and Measures|International Committee for Weights and Measures]] and president of the [[International Association of Geodesy|International Geodetic Association]]
+
+== References ==
+{{reflist|30em|refs=
+
+&lt;ref name=&quot;1552-Bessel&quot;&gt;{{cite book
+  |title     = Dictionary of Minor Planet Names
+  |last      = Schmadel
+  |first     = Lutz D.
+  |publisher = Springer Berlin Heidelberg
+  |page      = 123
+  |date      = 2007
+  |isbn      = 978-3-540-00238-3
+  |doi       = 10.1007/978-3-540-29925-7_1553
+  |chapter   = (1552) Bessel }}&lt;/ref&gt;
+
+}}&lt;!-- end of reflist --&gt;
+
+{{refbegin}}
+* [[John Frederick William Herschel]], ''A brief notice of the life, researches, and discoveries of Friedrich Wilhelm Bessel'', London: Barclay, 1847 ([https://books.google.com/books?id=OBQEAAAAQAAJ&amp;printsec=frontcover on-line])
+* {{Cite ADB|2|558|567|Bessel, Friedrich Wilhelm|[[Karl Christian Bruhns]]|ADB:Bessel, Friedrich Wilhelm}}
+* Jürgen Hamel: Friedrich Wilhelm Bessel. Leipzig 1984 {{ISSN|0232-3516}}.
+* Kasimir Ławrynowicz: Friedrich Wilhelm Bessel, 1784–1846. Basel, Boston, Berlin 1995, {{ISBN|3-7643-5113-6}}.
+* {{Cite EB1911|wstitle=Bessel, Friedrich Wilhelm|volume=3}}
+* {{Cite NIE|wstitle=Bessel, Friedrich Wilhelm|year=1905}}
+* {{Cite Nuttall|title=Bessel, Friedrich Wilhelm |short=x}}
+* [http://adsabs.harvard.edu/cgi-bin/nph-abs_connect?db_key=AST&amp;db_key=PRE&amp;qform=AST&amp;arxiv_sel=astro-ph&amp;arxiv_sel=cond-mat&amp;arxiv_sel=cs&amp;arxiv_sel=gr-qc&amp;arxiv_sel=hep-ex&amp;arxiv_sel=hep-lat&amp;arxiv_sel=hep-ph&amp;arxiv_sel=hep-th&amp;arxiv_sel=math&amp;arxiv_sel=math-ph&amp;arxiv_sel=nlin&amp;arxiv_sel=nucl-ex&amp;arxiv_sel=nucl-th&amp;arxiv_sel=physics&amp;arxiv_sel=quant-ph&amp;arxiv_sel=q-bio&amp;sim_query=YES&amp;ned_query=YES&amp;adsobj_query=YES&amp;aut_logic=OR&amp;obj_logic=OR&amp;author=Bessel%2C+F.+W.&amp;object=&amp;start_mon=&amp;start_year=&amp;end_mon=&amp;end_year=&amp;ttl_logic=OR&amp;title=&amp;txt_logic=OR&amp;text=&amp;nr_to_return=200&amp;start_nr=1&amp;jou_pick=ALL&amp;ref_stems=&amp;data_and=ALL&amp;group_and=ALL&amp;start_entry_day=&amp;start_entry_mon=&amp;start_entry_year=&amp;end_entry_day=&amp;end_entry_mon=&amp;end_entry_year=&amp;min_score=&amp;sort=SCORE&amp;data_type=SHORT&amp;aut_syn=YES&amp;ttl_syn=YES&amp;txt_syn=YES&amp;aut_wt=1.0&amp;obj_wt=1.0&amp;ttl_wt=0.3&amp;txt_wt=3.0&amp;aut_wgt=YES&amp;obj_wgt=YES&amp;ttl_wgt=YES&amp;txt_wgt=YES&amp;ttl_sco=YES&amp;txt_sco=YES&amp;version=1 Publications of Friedrich Wilhelm Bessel] [[Astrophysics Data System|Astrophysics Data System ADS]]
+{{refend}}
+
+== Further reading ==
+{{refbegin}}
+* {{DSB
+|first=Walter
+|last=Fricke
+|title=Bessel, Friedrich Wilhelm
+|volume=2
+|pages=97–102
+}}
+{{refend}}
+
+== External links ==
+*{{Commons category inline}}
+* {{MacTutor Biography|id=Bessel}}
+* {{MathGenealogy|id=18603}}
+
+{{Authority control}}
+
+{{DEFAULTSORT:Bessel, Friedrich Wilhelm}}
+[[Category:1784 births]]
+[[Category:1846 deaths]]
+[[Category:19th-century German mathematicians]]
+[[Category:Fellows of the American Academy of Arts and Sciences]]
+[[Category:Foreign Members of the Royal Society]]
+[[Category:German astronomers]]
+[[Category:German geodesists]]
+[[Category:Honorary Members of the St Petersburg Academy of Sciences]]
+[[Category:Members of the French Academy of Sciences]]
+[[Category:Members of the Royal Netherlands Academy of Arts and Sciences]]
+[[Category:People from East Prussia]]
+[[Category:People from Prussia]]
+[[Category:Recipients of the Gold Medal of the Royal Astronomical Society]]
+[[Category:Recipients of the Lalande Prize]]
+[[Category:Recipients of the Pour le Mérite (civil class)]]</text>
+    <sha1>4z8do8839ssrqxa7yvkmp75rl95ijfi</sha1>
+  </revision>
+
+</page>
+</mediawiki>

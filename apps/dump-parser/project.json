@@ -1,0 +1,9 @@
+{
+  "name": "dump-parser",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/dump-parser/src",
+  "projectType": "application",
+  "targets": {
+  },
+  "tags": []
+}
