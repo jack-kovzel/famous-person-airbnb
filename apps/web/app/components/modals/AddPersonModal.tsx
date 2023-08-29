@@ -10,11 +10,12 @@ import {
   useForm,
   UseFormRegister,
 } from 'react-hook-form';
+import { PersonModel } from '@/app/__generated__/types';
 
 type ModalProps = BaseModalProps;
 
 const Input: React.FC<{
-  id: string;
+  id: keyof PersonModel | string;
   label: string;
   type?: string;
   placeholder?: string;
@@ -22,7 +23,7 @@ const Input: React.FC<{
   formatPrice?: boolean;
   required?: boolean;
   hidden?: boolean;
-  register: UseFormRegister<FieldValues>;
+  register: UseFormRegister<PersonModel>;
   errors: FieldErrors;
   onChange?: (value: string) => void;
 }> = ({ label, id, placeholder, type, hidden, register, required, errors }) => {
@@ -31,7 +32,7 @@ const Input: React.FC<{
       <Label id={id} label={label} errors={errors} />
       <div className="mt-2">
         <input
-          {...register(id, { required })}
+          {...register(id as keyof PersonModel, { required })}
           type={type}
           placeholder={placeholder}
           id={id}
@@ -84,25 +85,37 @@ const Label: React.FC<{
 };
 
 const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
-  const onMarkerLocationUpdated = (location: [number, number]) => {
-    return;
-  };
+  const onMarkerLocationUpdated = ([lat, lon]: [number, number]) =>
+    setValue('birthPlace.location', {
+      lat,
+      lon,
+    });
 
   const {
     register,
+    setValue,
     handleSubmit,
     formState: { errors },
-  } = useForm<FieldValues>({
+  } = useForm<PersonModel>({
     defaultValues: {
-      name: '',
-      shortDescription: '',
-      imageUrl: '',
-      birthDate: '',
-      deathDate: '',
+      name: 'A. J. Ayer',
+      birthDate: '1910-10-29T00:00:00.000Z',
+      birthPlace: {
+        place: 'London, England',
+        presentDayPlace: null,
+        location: {
+          lat: 51.5072,
+          lon: -0.1275,
+        },
+      },
+      deathDate: '1910-10-29T00:00:00.000Z',
+      shortDescription: 'English philosopher (1910–1989)',
+      imageUrl: 'https://i.pravatar.cc/150?u=A. J. Ayer',
     },
   });
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => {
+    console.log(data);
     return;
   };
 
@@ -117,24 +130,14 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
             The section contains the main information about person.
           </p>
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
-            <div className="sm:col-span-3">
+            <div className="sm:col-span-6">
               <Input
-                id={'firstName'}
-                label={'First name'}
+                id={'name'}
+                label={'Name'}
                 register={register}
                 errors={errors}
                 required={true}
                 placeholder={'Friedrich'}
-              />
-            </div>
-            <div className="sm:col-span-3">
-              <Input
-                id={'lastName'}
-                label={'Last name'}
-                register={register}
-                errors={errors}
-                required={true}
-                placeholder={'Bessel'}
               />
             </div>
             <div className="sm:col-span-3 sm:col-start-1">
@@ -159,7 +162,7 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
             </div>
             <div className="sm:col-span-6">
               <Input
-                id={'imagePhotoUrl'}
+                id={'imageUrl'}
                 label={'Photo Url'}
                 register={register}
                 errors={errors}
@@ -171,7 +174,7 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
               <Label id={'about'} label={'Short description'} errors={errors} />
               <div className="mt-2">
                 <textarea
-                  {...register('about', { required: true })}
+                  {...register('shortDescription', { required: true })}
                   id="about"
                   name="about"
                   placeholder={
@@ -193,9 +196,13 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
                   placeholder:text-gray-400 
                   sm:text-sm 
                   sm:leading-6
-                  ${errors['about'] ? 'border-rose-500' : 'border-neutral-300'}
                   ${
-                    errors['about']
+                    errors['shortDescription']
+                      ? 'border-rose-500'
+                      : 'border-neutral-300'
+                  }
+                  ${
+                    errors['shortDescription']
                       ? 'focus:border-rose-500'
                       : 'focus:border-black'
                   }
@@ -216,7 +223,7 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3 sm:col-start-1">
               <Input
-                id={'birthDate'}
+                id={'birthPlace.place'}
                 label={'Place'}
                 register={register}
                 errors={errors}
@@ -239,7 +246,7 @@ const AddPersonModal: React.FC<ModalProps> = (props: BaseModalProps) => {
                 </div>
               </div>
               <p className="mt-3 text-xs leading-6 text-gray-600">
-                You can drag the marker for proper position
+                You can drag the marker for proper position.
               </p>
             </div>
           </div>

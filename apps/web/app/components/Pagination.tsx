@@ -85,7 +85,11 @@ export const Pagination: React.FC<Props> = ({
               <ChevronLeftIcon
                 className="h-5 w-5"
                 aria-hidden="true"
-                onClick={onPreviousPageClick}
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  onPreviousPageClick();
+                }}
               />
             </a>
             <a
@@ -96,7 +100,11 @@ export const Pagination: React.FC<Props> = ({
               <ChevronRightIcon
                 className="h-5 w-5"
                 aria-hidden="true"
-                onClick={onNextPageClick}
+                onClick={(e) => {
+                  e.preventDefault();
+
+                  onNextPageClick();
+                }}
               />
             </a>
           </nav>
